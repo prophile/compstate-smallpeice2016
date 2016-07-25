@@ -1,1 +1,31 @@
-matches: {}
+matches:
+  0:
+    main: [T10, T06, T01, T05]
+  1:
+    main: [T02, T07, T03, T08]
+  2:
+    main: [T06, T04, T09, T05]
+  3:
+    main: [T01, T02, T07, T08]
+  4:
+    main: [T10, T03, T04, T09]
+  5:
+    main: [T07, T05, T06, T01]
+  6:
+    main: [T10, T04, T09, T08]
+  7:
+    main: [T01, T05, T03, T02]
+  8:
+    main: [T10, T07, T08, T09]
+  9:
+    main: [T04, T03, T02, T06]
+  10:
+    main: [T01, T09, T05, T08]
+  11:
+    main: [T02, T06, T10, T07]
+  12:
+    main: [T08, T03, T04, T01]
+  13:
+    main: [T09, T02, T06, T10]
+  14:
+    main: [T03, T05, T07, T04]
