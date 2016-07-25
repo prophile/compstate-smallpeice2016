@@ -1,0 +1,67 @@
+match_slot_lengths:
+  pre: 90
+  match: 180
+  post: 30
+  total: 300
+
+staging:
+  opens: 300
+  closes: 120
+  duration: 180
+  signal_shepherds: 240
+  signal_teams: 240
+
+timezone: Europe/London
+
+delays: []
+
+match_periods:
+  league:
+  - start_time: 2016-08-05 10:45:00 +1
+    end_time: 2016-08-05 12:15:00 +1
+    max_end_time: 2016-08-05 12:30:00 +1
+    description: League
+
+  knockout:
+  - start_time: 2016-08-05 13:00:00 +1
+    end_time: 2016-08-05 14:15:00 +1
+    description: Knockout
+
+league:
+  extra_spacing: 0
+
+knockout:
+  round_spacing: 300
+  final_delay: 300
+
+  static: true
+
+  single_arena:
+    rounds: 5
+    arenas:
+    - main
+
+static_knockout:
+  0:
+    0:
+      arena: main
+      start_time: 2016-08-05 13:10:00 +1
+      teams: [S3, S5, S8, S10]
+    1:
+      arena: main
+      start_time: 2016-08-05 13:22:00 +1
+      teams: [S4, S6, S7, S9]
+  1:
+    0:
+      arena: main
+      start_time: 2016-08-05 13:34:00 +1
+      teams: [S2, '000', '002', '011']
+    1:
+      arena: main
+      start_time: 2016-08-05 13:46:00 +1
+      teams: [S1, '001', '010', '012']
+  2:
+    0:
+      arena: main
+      start_time: 2016-08-05 14:00:00 +1
+      teams: ['100', '101', '110', '111']
