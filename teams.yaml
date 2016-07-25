@@ -11,7 +11,7 @@ teams:
   T04:
     name: Team 4
     rookie: true
-  T05
+  T05:
     name: Team 5
     rookie: true
   T06:
