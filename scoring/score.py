@@ -1,6 +1,6 @@
 class Scorer:
-    def __init__(self, scoresheet):
-        self.scoresheet = scoresheet
+    def __init__(self, teams_data, arena_data):
+        self.scoresheet = teams_data
 
     def calculate_score(self, data):
         moved = data.get('moved', False)
